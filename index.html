@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="book">
+        <!-- Cover Page -->
+        <div class="cover" id="cover">
+            <h1>Wedding Invitation</h1>
+            <p>You're cordially invited to celebrate the union of</p>
+            <div class="couple-names">
+                <h3>Rahul Sharma</h3>
+                <h3>&</h3>
+                <h3>Priya Patel</h3>
+            </div>
+            <p>As we begin our journey together</p>
+            <p class="instruction">Click to open the invitation</p>
+        </div>
+
+        <!-- Inner Pages -->
+        <div class="pages" id="pages">
+            <!-- Background Image -->
+            <div class="background">
+                <img src="images/bg2.png" alt="Wedding Background"
+                    style="width: 100%; height: 100%; object-fit: cover; opacity: 10.1;">
+            </div>
+            <!-- Couple Names -->
+            <div class="names">
+                <h3>Rahul Sharma</h3>
+                <div class="and">&</div>
+                <h3>Priya Patel</h3>
+            </div>
+            <!-- Event Details -->
+            <div class="event-details">
+                <h3>Wedding Ceremony</h3>
+                <p>Saturday, December 10th, 2023</p>
+                <p>4:00 PM onwards</p>
+                <p>The Grand Palace</p>
+                <p>123 Wedding Lane, Kerala, India</p>
+            </div>
+            <!-- Header -->
+            <div class="header">
+                <p>With the blessings of our families, we request your presence at our wedding</p>
+            </div>
+
+
+
+            <!-- Countdown -->
+            <div class="countdown">
+                <div class="countdown-timer" id="countdown">
+                    <div class="countdown-item">
+                        <span id="days">00</span>
+                        Days
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        Hours
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Carousel -->
+            <div class="container">
+                <div class="carousel">
+                    <div class="carousel__face"></div>
+                    <div class="carousel__face"></div>
+                    <div class="carousel__face"></div>
+                    <div class="carousel__face"></div>
+                    <div class="carousel__face"></div>
+                    <div class="carousel__face"></div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <p>We look forward to celebrating with you!</p>
+                <p>With love</p>
+                <p> Rahul & Priya</p>
+                <p>Please RSVP by November 20th</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
